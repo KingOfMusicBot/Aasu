@@ -31,7 +31,7 @@ import aiohttp
 from AYESHA import LOGGER
 from urllib.parse import urlparse
 
-API_BASE_URL = "http://143.110.179.93:8000"
+API_BASE_URL = "https://riyabots.site"
 API_KEY = os.getenv("YT_API_KEY", "StrangerApi06c7765")
 
 async def get_telegram_file(telegram_url: str, video_id: str, file_type: str) -> str:
