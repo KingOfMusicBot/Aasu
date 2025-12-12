@@ -32,7 +32,7 @@ from AYESHA import LOGGER
 from urllib.parse import urlparse
 
 API_BASE_URL = "http://riyabots.site"
-API_KEY = os.getenv("YT_API_KEY", "StrangerApi06c7765")
+API_KEY = os.getenv("YT_API_KEY", "StrangerApi379c11a")
 
 async def get_telegram_file(telegram_url: str, video_id: str, file_type: str) -> str:
     logger = LOGGER("StrangerAPI/Youtube.py")
